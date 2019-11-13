@@ -1,0 +1,31 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.wordWrap": "on",
+  "editor.fontFamily": "Operator Mono Light",
+  "terminal.integrated.fontFamily": "Operator Mono",
+  "terminal.integrated.fontSize": 22,
+  "editor.fontWeight": "600",
+  "terminal.integrated.fontWeight": "500",
+  "editor.fontSize": 22,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "terminal.integrated.shell.linux": "/bin/zsh",
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": -2,
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "editor.renderWhitespace": "all",
+  "workbench.iconTheme": "material-icon-theme",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorCustomizations": {
+    "window.activeBorder": "#295cba",
+    "window.inactiveBorder": "#cccccc"
+  }
+}
