@@ -1,0 +1,24 @@
+sudo: required
+services:
+  - docker
+env:
+  global:
+    - SHA=$(git rev-parse HEAD)
+    - CLOUDSDK_CORE_DISABLE_PROMPTS=1
+before_install:
+  - curl https://sdk.cloud.google.com | bash > /dev/null;
+  - source $HOME/google-cloud-sdk/path.bash.inc
+  - gcloud update components kubeclt
+  - gcloud auth activate-service-account --key-file service-account.json
+  - gcloud config set project [projectid]
+  - gcloud config set compute/zone us-centeral1-a
+  - gcloud container clusters get-credentials multi-cluster
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - docker build -t react-test -f Dockerfile.dev ./client
+script:
+  - docker run react-test npm run test -- --coverage
+deploy:
+  provider: script
+  script: bash ./deploy.sh
+  on:
+    branch: master
