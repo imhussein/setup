@@ -1,6 +1,7 @@
 // Go
 // Java
 // Python
+// Bash - Unix - Github
 // ML - AI
 // Review
 // React And Express
