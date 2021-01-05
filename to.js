@@ -1,6 +1,5 @@
 // Go
 // Java
-// Rust
 // Python
 // ML - AI
 // Review
