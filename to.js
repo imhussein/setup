@@ -3,7 +3,7 @@
 // Python
 // Bash - Unix - Github
 // ML - AI
-// Review
+// Review ALL CV
 // React And Express Explore
 // The Book - Functional Programming
 // Networking
@@ -14,4 +14,5 @@
 // 2 - More GoLang
 // 3 - React Explore
 // 4 - Github + Bash
-// 5 - Python Review
+// 5 - Python Review + Django review
+// 6 - Regular Expression
