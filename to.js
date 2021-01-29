@@ -10,9 +10,9 @@
 // Regular Expression
 
 // Jan
-// 1 - Golang App
-// 2 - More GoLang
+// 1 - More GoLang
+// 2 - Python Review + Django review
 // 3 - React Explore
 // 4 - Github + Bash
-// 5 - Python Review + Django review
-// 6 - Regular Expression
+// 5 - Regular Expression
+
