@@ -1,0 +1,74 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.wordWrap": "on",
+  "editor.fontFamily": "Operator Mono",
+  "editor.fontWeight": "600",
+  "terminal.integrated.fontFamily": "Operator Mono",
+  "terminal.integrated.fontSize": 24,
+  "terminal.integrated.fontWeight": "600",
+  "editor.fontSize": 26,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "terminal.integrated.shell.linux": "bash",
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "editor.tabSize": 2,
+  "window.zoomLevel": -1.5,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "editor.renderWhitespace": "all",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorCustomizations": {
+    "window.activeBorder": "#333333",
+    "window.inactiveBorder": "#cccccc"
+  },
+  "window.doubleClickIconToClose": true,
+  "window.titleBarStyle": "custom",
+  "editor.formatOnSave": true,
+  "python.linting.pylintArgs": [
+    "--load-plugins=pylint_django",
+    "--errors-only"
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "python.showStartPage": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnPaste": true,
+  "editor.snippetSuggestions": "top",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "go.useLanguageServer": true,
+  "workbench.colorTheme": "Default Dark+",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "python.analysis.extraPaths": ["/home/mohamed/go/src/algo/djangocode"],
+  "python.languageServer": "Pylance",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "expand",
+  "go.lintFlags": [
+    "--exclude=\"\bexported \\w+ (\\S*['.]*)([a-zA-Z'.*]*) should have comment or be unexported\b\""
+  ],
+  "smoothtype.duration": 30
+}
