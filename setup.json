@@ -1,40 +1,76 @@
 {
   "workbench.startupEditor": "newUntitledFile",
   "editor.wordWrap": "on",
-  "editor.fontFamily": "Operator Mono",
-  "editor.fontWeight": "400",
-  "terminal.integrated.fontFamily": "Operator Mono",
-  "terminal.integrated.fontSize": 24,
-  "terminal.integrated.fontWeight": "500",
-  "editor.fontSize": 24,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
+  "[sql]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.defaultFormatter": "mtxr.sqltools"
   },
-  "terminal.integrated.shell.linux": "bash",
+  "vs-kubernetes": {
+    "disable-linters": ["resource-limits"],
+    "vscode-kubernetes.minikube-path.linux": "/home/hussein/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    "vscode-kubernetes.helm-path.linux": "/home/hussein/.vs-kubernetes/tools/helm/linux-amd64/helm"
+  },
+  "html.format.enable": true,
+  "gopls": {
+    "experimentalWorkspaceModule": true
+  },
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "editor.suggest.snippetsPreventQuickSuggestions": false
+  },
+  "editor.cursorBlinking": "solid",
+  "editor.quickSuggestionsDelay": 30,
+  "editor.fontFamily": "Operator Mono, Menlo, \"Source Code Pro\", monospace",
+  "editor.fontWeight": "600",
+  "terminal.integrated.fontFamily": "Operator Mono",
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  "terminal.integrated.fontSize": 27,
+  "explorer.compactFolders": false,
+  "terminal.integrated.fontWeight": "900",
+  "rust-client.rustupPath": "$HOME/.cargo/bin/rustup",
+  "editor.fontSize": 29,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "django-html": "html"
+  },
+  "[php]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    "editor.tabSize": 1.7
+  },
+  "terminal.integrated.shell.linux": "zsh",
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
+  "[rust]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "editor.cursorStyle": "line",
   "editor.tabSize": 2,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "window.zoomLevel": -2,
   "files.associations": {
-    "*.js": "javascriptreact"
+    "*.js": "javascriptreact",
+    "**/*.html": "html",
+    "**/templates/**/*.html": "django-html",
+    "**/templates/**/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
   },
+
   "editor.renderWhitespace": "all",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorCustomizations": {
-    "window.activeBorder": "#333333",
-    "window.inactiveBorder": "#cccccc"
-  },
   "window.doubleClickIconToClose": true,
   "window.titleBarStyle": "custom",
-  "editor.formatOnSave": true,
   "python.linting.pylintArgs": [
     "--load-plugins=pylint_django",
     "--errors-only"
   ],
-  "workbench.iconTheme": "material-icon-theme",
-  "python.showStartPage": false,
+  "workbench.iconTheme": "vscode-icons",
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -50,8 +86,99 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "sync.gist": "44172ec56600e9733e78fc2389361b35",
   "editor.formatOnPaste": true,
+  "editor.snippetSuggestions": "top",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "docker.showStartPage": false,
+  "smoothtype.duration": -1,
+  "editor.formatOnSave": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "python.languageServer": "Pylance",
+  "[json]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[vue-html]": {
+    "editor.formatOnSave": true
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "workbench.editor.tabSizing": "shrink",
+  "[django-html]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    },
+    "editor.defaultFormatter": "batisteo.vscode-django"
+  },
+
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "workbench.colorCustomizations": {},
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.cursorWidth": 3,
+  "[nginx]": {
+    "editor.defaultFormatter": "raynigon.nginx-formatter"
+  },
+  "prettier.singleQuote": true,
+  "debug.console.fontSize": 20,
+  "debug.console.fontFamily": "Operator Mono",
+  "markdown.preview.fontFamily": "Operator Mono",
+  "editor.codeLensFontFamily": "Operator Mono",
+  "scm.inputFontFamily": "Operator Mono",
+  "terminal.integrated.tabs.enabled": true,
+  "editor.suggestFontSize": 29,
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.snippetSuggestions": "top"
+  "workbench.editor.untitled.hint": "hidden",
+  "go.toolsManagement.autoUpdate": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "redhat.telemetry.enabled": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 4,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "editor.cursorSmoothCaretAnimation": true,
+  "explorer.confirmDragAndDrop": false,
+  "yaml.schemas": {
+    "file:///home/hussein/.vscode/extensions/atlassian.atlascode-2.10.0/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "window.zoomLevel": 1.9,
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": ""
+    }
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
