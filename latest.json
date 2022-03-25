@@ -1,0 +1,120 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.wordWrap": "on",
+  "vs-kubernetes": {
+    "disable-linters": [
+      "resource-limits"
+    ]
+  },
+  "html.format.enable": true,
+  "editor.cursorBlinking": "solid",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 45,
+  "editor.quickSuggestionsDelay": 30,
+  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "workbench.editor.tabSizing": "shrink",
+  "editor.letterSpacing": 0.5,
+  "editor.suggestLineHeight": 35,
+  "editor.suggestFontSize": 20,
+  "editor.fontWeight": "400",
+  "terminal.integrated.fontFamily": "Operator Mono",
+  "terminal.integrated.fontSize": 25,
+  "explorer.compactFolders": false,
+  "terminal.integrated.fontWeight": "400",
+  "rust-client.rustupPath": "$HOME/.cargo/bin/rustup",
+  "editor.fontSize": 30,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "jinja-html": "html"
+  },
+  "[php]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "terminal.integrated.shell.linux": "zsh",
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "[rust]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "editor.cursorStyle": "line",
+  "editor.tabSize": 2,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "editor.renderWhitespace": "all",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  
+  "window.doubleClickIconToClose": true,
+  "window.titleBarStyle": "custom",
+  "python.linting.pylintArgs": [
+    "--load-plugins=pylint_django",
+    "--errors-only"
+  ],
+  "python.showStartPage": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnPaste": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "docker.showStartPage": false,
+  "editor.cursorSmoothCaretAnimation": false,
+  "smoothtype.duration": 200,
+  "editor.formatOnSave": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.languageServer": "Pylance",
+  "[json]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[vue-html]": {
+    "editor.formatOnSave": true
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 2,
+  "editor.cursorWidth": 2,
+  "workbench.iconTheme": "vscode-icons",
+  "bracketPairColorizer.depreciation-notice": false,
+  "workbench.colorCustomizations": {
+    "errorLens.hintForeground": "#ffc600A1",
+    "errorLens.hintBackground": "#ffc60003",
+    "errorLens.errorBackground": "#ff000005"
+  },
+}
